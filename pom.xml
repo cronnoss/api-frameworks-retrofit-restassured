@@ -71,6 +71,14 @@
             <version>1.1.1</version>
         </dependency>
 
+        <!--For Wiremock-->
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-jre8</artifactId>
+            <version>2.29.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
